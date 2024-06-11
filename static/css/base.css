@@ -1,0 +1,15 @@
+html {
+    height: 100%;
+}
+
+.logo-font {
+    text-transform: uppercase;
+}
+
+.main-logo-link {
+    width: fit-content;
+}
+
+.text-black {
+    color: black !important;
+}
