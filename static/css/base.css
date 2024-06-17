@@ -10,12 +10,14 @@ html {
     width: fit-content;
 }
 
+li .list-inline-item {
+    display: inline-flex !important;
+}
+
 .text-black {
     color: black !important;
 }
-li .list-inline-item {
-    display: inline-flex;
-}
+
 /*------------------------------------- Media Queries */
 
 @media (min-width: 1200px) {
