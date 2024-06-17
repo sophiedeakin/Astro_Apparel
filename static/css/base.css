@@ -10,8 +10,9 @@ html {
     width: fit-content;
 }
 
-li .list-inline-item {
-    display: inline-flex !important;
+.user-links {
+    display: inline-flex;
+    align-items: center;
 }
 
 .text-black {
