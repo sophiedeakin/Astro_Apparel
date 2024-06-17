@@ -2,6 +2,10 @@ html {
     height: 100%;
 }
 
+.logo {
+    height: 100px
+}
+
 .logo-font {
     text-transform: uppercase;
 }
@@ -13,3 +17,27 @@ html {
 .text-black {
     color: black !important;
 }
+
+/*------------------------------------- Media Queries */
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 992px) { /*--------------------------- fixed navbar only on medium screens and higher */
+   .fixed-top-desktop-only {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    }
+
+    .header-continer {
+        padding-top: 164px;
+    }
+}
+
+
