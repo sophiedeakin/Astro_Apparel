@@ -44,8 +44,8 @@
                   </div>
                 </div>    
               </form>
-              <div class="d-inline-flex align-items-center pt-3">
-                  <ul class="list-inline list-unstyled text-center my-0 user-links">
+              <div class="d-inline-flex align-items-center pt-3 user-links">
+                  <ul class="list-inline list-unstyled text-center my-0">
                       <li class="list-inline-item dropdown">
                           <a class="text-black nav-link dropdown-toggle" href="#" id="user-options" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               <div class="text-center">
@@ -65,7 +65,7 @@
                       </li>
                       <li class="list-inline-item">
                           <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link" href="">
-                              <div class="text-center">
+                              <div class="d-inline-flex align-items-center">
                                   <div><i class="fa-solid fa-cart-shopping fa-lg"></i></div>
                                   <p class="my-0 ms-2">
                                       {% if grand_total %}
