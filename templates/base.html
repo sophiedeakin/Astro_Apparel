@@ -25,10 +25,14 @@
   <body>
     <header class="container-fluid fixed-top">
       <div class="d-flex justify-content-between align-items-center">
-          <a href="{% url 'home'%}" class="nav-link main-logo-link">
+          <div>
               <img src="{% static '/assets/astroapparel_logo.png' %}" alt="Astro Apparel Logo">
-              <h2 class="logo-font text-black my-0" style="font-family: Orbitron, sans-serif;">Astro Apparel</h2>
-          </a>
+          </div>
+          <div class="d-flex align-items-center">
+              <a href="{% url 'home'%}" class="nav-link main-logo-link text-center">
+                  <h2 class="logo-font text-black my-0" style="font-family: Orbitron, sans-serif;">Astro Apparel</h2>
+              </a>
+          </div>
           <div class="d-flex align-items-center">
               <form method="GET" action="" class="d-none d-lg-block me-4">
                 <div class="input-group">
