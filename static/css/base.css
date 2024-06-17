@@ -14,7 +14,7 @@ html {
     color: black !important;
 }
 
-.list-inline-item {
+.list-inline {
     display: inline-flex;
 }
 /*------------------------------------- Media Queries */
