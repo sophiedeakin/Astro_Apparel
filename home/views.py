@@ -7,7 +7,3 @@ def index(request):
     
     return render(request, 'home/index.html')
 
-class pageView(TemplateView):
-    """ A view to return a page """
-
-    template_name = 'privacypolicy.html'
